@@ -1,0 +1,400 @@
+*{
+  font-family: 'Poppins', sans-serif;
+}
+
+body{
+    background: rgb(16, 14, 17);
+    color: #fff;
+}
+
+a, a:active, a:focus{
+    color: #fff !important;
+    text-decoration: none;
+}
+
+#particles-js{
+  width: 100%;
+  height: 100%;
+  background-color: #0D0D12;
+  background-image: url('');
+  background-size: cover;
+  background-position: 100% 100%;
+  background-repeat: repeat;
+  z-index: -1;
+}
+
+#particles-js canvas{
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  z-index: -999
+}
+
+.navbar{
+  width: 60%;
+  margin: 0 auto;
+  padding-top: 30px;
+}
+
+.logo{
+  height: 65px;
+}
+
+.mid-coinainter{
+  width: 60%;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%);
+  margin-top: 150px;
+  height: 600px;
+}
+
+.leftside{
+  height: 300px;
+  width: 300px;
+  margin-top: 130px;
+}
+
+.textleftmain{
+  font-weight: 500;
+  color: rgb(128, 94, 201) !important;
+  font-size: 36px;
+}
+
+.textleftnotmain{
+  font-weight: 300;
+  font-size: 20px;
+  margin-top: -30px;
+  padding-bottom: 5px;
+}
+
+.downloadbutton{
+  filter: drop-shadow(10px 10px 10px rgba(0,0,0,0.3));
+  font-weight: 300;
+  padding: 10px 30px;
+  background: rgb(97, 76, 141);
+  border: 1px solid rgb(97, 76, 141);
+  border-radius: 6px;
+  transition: 0.5s;
+}
+
+.downloadbutton:after {
+  font-size:0px;
+  content: '>';
+  opacity: 0;
+  transition: 0.5s;
+}
+
+.downloadbutton:hover:after {
+  font-size: 16px;
+  margin-left: 10px;
+  opacity: 1;
+}
+
+.downloadbutton:hover{
+  background: rgb(128, 94, 201);
+  transition: 0.5s;
+}
+
+.rightside{
+  margin-left: 550px;
+  margin-top: -450px;
+}
+
+.rightside img{
+  transform: perspective(500px) rotateY(-10deg) rotateX(5deg);
+  filter: drop-shadow(10px 10px 10px rgba(0,0,0,0.3));
+}
+
+.thing{
+  width: 50%;
+  height: 3px;
+  background: rgb(97, 76, 141);
+  position: absolute;
+  left: 50%;
+  transform: translateY(-15px) translateX(-50%);
+  border: 0px solid transparent;
+  border-radius: 12px;
+}
+
+.whynebula{
+  width: 60%;
+  height: 700px;
+  position: absolute;
+  left: 50%;
+  transform: translateY(770px) translateX(-50%);
+}
+
+.textwhy{
+  text-align: center;
+  font-size: 36px;
+}
+
+.box{
+  width: 30%;
+  padding-top: 130px;
+  padding-bottom: 140px;
+  background: rgb(19, 17, 20);
+  display: inline-block;
+  transform: translateX(15%);
+  border: 1px solid transparent;
+  border-radius: 12px;
+  filter: drop-shadow(10px 10px 10px rgba(0,0,0,0.3));
+  margin-top: 20px;
+  transition: 0.2s;
+  border-bottom: 5px solid rgb(97, 76, 141);
+}
+
+.box:hover{
+  box-shadow: 0px 0px 5px rgb(128, 94, 201);
+}
+
+
+.femboyclass{
+  filter: drop-shadow(10px 10px 10px rgba(0,0,0,0.3));
+  margin-top: -100px;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%);
+  font-size: 34px;
+  z-index: -999;
+}
+
+.textbox{
+  text-align: center;
+  margin-top: -30px;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%);
+  width: 80%;
+  z-index: -999;
+}
+
+.showcases{
+  width: 60%;
+  height: 500px;
+  position: absolute;
+  left: 50%;
+  transform: translateY(1300px) translateX(-50%);
+}
+
+.showcasevideo{
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%);
+  height: 400px;
+  width: 700px;
+  margin-top: 15px;
+  box-shadow: 0px 0px 15px rgb(128, 94, 201);
+}
+
+.soonshowcase{
+  font-size: 80px;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%) translateY(120px);
+}
+
+.download{
+  width: 60%;
+  height: 500px;
+  position: absolute;
+  left: 50%;
+  transform: translateY(2000px) translateX(-50%);
+}
+
+.downloadbox{
+  width: 35%;
+  padding-top: 130px;
+  padding-bottom: 130px;
+  background: rgb(19, 17, 20);
+  display: inline-block;
+  transform: translateX(43%);
+  border: 1px solid transparent;
+  border-radius: 12px;
+  filter: drop-shadow(10px 10px 10px rgba(0,0,0,0.3));
+  margin-top: 20px;
+  transition: 0.2s;
+  border-top: 5px solid rgb(97, 76, 141);
+}
+
+.textbigdownload{
+  font-size: 30px;
+  text-align: center;
+  margin-top: -80px;
+}
+
+.textsmalldownload{
+  text-align: center;
+  font-size: 18px;
+}
+
+.downloadbox .downloadbutton{
+  margin-top: 30px;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%);
+}
+
+.downloadbox .downloadbutton[disabled]{
+  background: gray;
+  border: gray;
+  cursor:not-allowed;
+}
+
+.downloadbox .downloadbutton:hover:after {
+  font-size: 0px !important;
+  margin-left: 0px !important;
+  opacity: 0 !important;
+}
+
+.div404{
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%);
+  margin-top: 280px;
+  text-align: center;
+}
+
+.text404{
+  font-size: 68px;
+  font-weight: 500;
+  color:rgb(97, 76, 141)
+}
+
+.errortext{
+  font-size: 40px;
+  margin-top: -70px;
+  font-weight: 300;
+}
+
+footer{
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%) translateY(2700px);
+}
+
+
+@media screen and (min-width: 1183px) and (max-width:1366px){
+  .rightside img{
+    transform: scaleX(0.9) scaleY(0.9) perspective(500px) rotateY(-10deg) rotateX(5deg);
+  }
+  .rightside{
+    margin-left: 350px;
+  }
+}
+
+@media screen and (min-width: 571px) and (max-width: 1184px){
+  .box{
+    width: 80%;
+  }
+  .download{
+    width: 90%;
+    position: absolute;
+    left: 50%;
+    transform: translateY(3000px) translateX(-50%);
+  }
+  .downloadbox{
+    width: 80%;
+    transform: translateX(15%);
+
+  }
+  .rightside img{
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%) scaleX(0.9) scaleY(0.9);
+  }
+  .rightside{
+    width: 100%;
+    margin-top: 0;
+  }
+
+  .whynebula{
+    position: absolute;
+    left: 50%;
+    transform: translateY(1300px) translateX(-50%);
+  }
+  footer{
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%) translateY(4050px);
+  }
+  .showcases{
+    position: absolute;
+    left: 50%;
+    transform: translateY(2400px) translateX(-50%);
+  }
+  .showcasevideo{
+    width: 500px;
+    height: 400px;
+  }
+}
+
+@media screen and (max-width: 596px){
+  .box{
+    width: 80%;
+  }
+  .download{
+    width: 90%;
+    position: absolute;
+    left: 50%;
+    transform: translateY(3000px) translateX(-50%);
+  }
+
+  .downloadbox{
+    transform: translateX(15%);
+  }
+
+  footer{
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%) translateY(4050px);
+  }
+}
+
+@media screen and (max-width: 570px){
+  .rightside img{
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%) scaleX(0.7) scaleY(0.7);
+  }
+  .rightside{
+    width: 100%;
+    margin-top: 0;
+  }
+
+  .download{
+    width: 90%; 
+    position: absolute;
+    left: 50%;
+    transform: translateY(3000px) translateX(-50%);
+  }
+
+  .downloadbox{
+    width: 90%; 
+    transform: translateX(5%);
+  }
+
+  .whynebula{
+    position: absolute;
+    left: 50%;
+    transform: translateY(1300px) translateX(-50%);
+  }
+  .whynebula{
+    width: 90%;
+  }
+  footer{
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%) translateY(4200px);
+  }
+  .showcases{
+    position: absolute;
+    left: 50%;
+    transform: translateY(2400px) translateX(-50%);
+  }
+  .showcasevideo{
+    width: 400px;
+    height: 300px;
+  }
+}
